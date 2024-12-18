@@ -1,0 +1,54 @@
+button {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+button:hover {
+  background-color: #373a3c;
+}
+
+button:active {
+  transform: translateY(4px);
+  background-color: #090b0b;
+}
+
+button:hover {
+  border-color: black; /* Change border color on hover */
+  box-shadow: 0 0 8px rgb(0, 0, 0, 0.6); /* Add a glowing effect */
+}
+
+.bmi-calculator {
+  transition: background-color 1s ease-in;
+}
+.underweight {
+  background-color: #b2fbf3;
+}
+
+.normalweight {
+  background-color: #58f458;
+}
+
+.overweight {
+  background-color: #fbe013;
+}
+
+.obesity {
+  background-color: #f55d42; /* Tomato red */
+}
+
+.result {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-size: 20px;
+}

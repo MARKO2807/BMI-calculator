@@ -12,7 +12,6 @@ body {
 
 body {
   background: linear-gradient(to right, #a8c0ff, #3f94f8);
-  font-family: 'Arial', sans-serif;
 }
 
 ul,
@@ -37,8 +36,7 @@ a:hover {
 }
 
 .bmi-calculator {
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-
+  font-family: 'Roboto';
   margin: 10px auto;
   padding: 5%;
 

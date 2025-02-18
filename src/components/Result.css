@@ -9,7 +9,7 @@ button {
   width: 100%;
   font-size: 18px;
   transition: background-color 0.2s ease, transform 0.2s ease;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-family: 'Open Sans', sans-serif, 'Arial', sans-serif;
 }
 
 button:hover {
